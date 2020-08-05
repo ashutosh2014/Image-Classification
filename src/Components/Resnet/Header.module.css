@@ -1,0 +1,146 @@
+
+/* head_container css */
+.head_container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .head_container {
+      max-width: 540px;
+    }
+}
+  
+@media (min-width: 768px) {
+    .head_container {
+      max-width: 720px;
+    }
+}
+  
+@media (min-width: 992px) {
+    .head_container {
+      max-width: 960px;
+    }
+}
+  
+@media (min-width: 1200px) {
+    .head_container {
+      max-width: 1140px;
+    }
+}
+
+/* head row css */
+.head_row {
+    /* display: -webkit-box;
+    display: -ms-flexbox; */
+    display: block;
+    /* margin-top: 20px; */
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.resnets {
+    margin-bottom: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+.resnet {
+    flex: 0 1 50%;
+}
+.resnet>h1{
+    position: relative;
+    font-family: 'gibson_normal';
+    font-size: 32px;
+    color: #5651ea;
+    width: 100%;
+    text-align: center;
+}
+.resnet>p{
+    position: relative;
+    font-family: 'Montserrat-Light';
+    font-size: 16px;
+    color: #1E2249;
+    letter-spacing: -1px;
+    text-align: center;
+
+}
+.resnet>img {
+    width: calc(100% - 48px);
+    height: 420px;
+    margin: 24px;
+
+}
+/* head column css */
+.head_col_logo {
+  position: relative;
+  width: 120px;
+  height: 60px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (max-width: 992px) {
+    .head_col_logo {
+        width: 90px;
+    }
+    .resnet {
+        flex: 0 1 100%;
+    }
+}
+@media (max-width: 768px) {
+    .head_col_logo {
+        width: 78px;
+    }
+}
+/* head column logo css */
+.head_col_logo>img  {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.head_row>h1  {
+    position: relative;
+    font-family: 'gibson_normal';
+    font-size: 48px;
+    color: #5651ea;
+    letter-spacing: 5px;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    margin-top: 32px;
+    /* flex-basis: 1; */
+}
+.head_row>p  {
+    position: relative;
+    font-family: 'Montserrat-Light';
+    font-size: 18px;
+    color: #1E2249;
+    letter-spacing: -1px;
+    text-align: justify;
+    /* margin-top: 32px; */
+    /* flex-basis: 1; */
+}
+.head_row>img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+ 
+@media (max-width: 992px) {
+    .head_row>h1 {
+        font-size: 36px;
+        margin-top: 8px;
+    }
+}
+@media (max-width: 768px) {
+    .head_row>h1 {
+        font-size: 30px;
+        margin-top: 8px;
+    }
+}
